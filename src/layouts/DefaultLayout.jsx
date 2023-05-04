@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const DefaultLayout = () => {
   return (
-    <div className='h-screen bg-slate-100'>
+    <div className='h-screen px-4 font-Poppins bg-slate-100'>
       <Nav />
       <Outlet />
       <Footer />
