@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom'
 import Nav from '../components/navbar/Nav'
-import Footer from '../components/Footer'
+import Footer from '../components/footer/Footer'
 
 const DefaultLayout = () => {
   return (
-    <div className='h-screen px-4 font-Poppins bg-slate-100'>
+    <div className='px-4 font-Poppins'>
       <Nav />
       <Outlet />
       <Footer />
